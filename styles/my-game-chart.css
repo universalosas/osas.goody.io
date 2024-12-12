@@ -1,0 +1,183 @@
+.main-content-area{
+    flex-grow: 1;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+    padding-top: 20px;
+    padding-right: 29px;
+    width: 300px;
+}
+
+.scrollable-chart-area{
+    width: 250px !important;
+    padding: 20px 14px;
+}
+
+.content-chart-history{
+    display: flex;
+}
+
+.game-chart-1{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-first-chart-game{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    /* Apply mask for fade effect */
+    -webkit-mask-image: linear-gradient(to bottom, rgba(2, 2, 2, 0.623), transparent);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.904), transparent);
+    -webkit-mask-size: 50% 50%;
+    mask-size: 100% 100%;
+}
+
+.absolute-content-game-chart-1{
+    position: relative;
+    top: -100px;
+    display: flex;
+    margin: 0 40px;
+}
+
+.first-game-chart-image{
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 14px;
+    margin-right: 25px;
+}
+
+.game-name-chart1{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.rating-chart-1{
+    height: 20px;
+    margin-bottom: 3px;
+}
+
+.button-category-game-chart{
+    padding: 3px 9px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-right: 14px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+}
+
+.text-chart1-discription{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.discount-chart1{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    width: 300px;
+    border-radius: 18px;
+    background-color: rgb(3, 3, 61);
+    color: white;
+    padding: 9px 11px;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.top1-text{
+    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 52px;
+}
+
+.chart-number{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 9px;
+}
+
+.nested-gaming-collection-chart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 12px;
+}
+
+.chart-number-identifier{
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 45px;
+    margin: 0;
+    margin-right: 13px;
+}
+
+.game-chart-image{
+    width: 100px !important;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 9px;
+}
+
+.game-name-chart{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+.game-category-chart{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;  
+    font-size: 10px; 
+    margin: 0;
+}
+
+.chart-number-text{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;   
+}
+
+.up-arrow-icon{
+    color: rgb(13, 206, 77);
+    font-size: 20px;
+}
+
+.down-drop-icon{
+    color: rgb(196, 15, 15);
+    font-size: 20px;
+}

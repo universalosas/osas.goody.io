@@ -1,0 +1,85 @@
+.centered-scrollable-area
+{
+    width: 240px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    right: 0;
+    overflow-y: scroll;
+    padding-top: 20px;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.main-content-video{
+    display: flex;
+    flex-direction: row;
+}
+
+.side-bar-scrollable-area{
+    width: 300px;
+    padding: 11px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-element-video-page{
+    padding-top: 52px;
+    padding-left: 74px;
+}
+
+.video-container-youtube{
+    margin: 15px 40px;
+    border-radius: 20px;
+}
+
+.video-youtube-iframe{
+    border-radius: 10px;
+}
+
+.game-purchase-sugestions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.image-game-suggestion{
+    width: 182px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.game-suggestion-image-container{
+    margin-right: 15px;
+    width: 183px !important;
+}
+
+.game-name-suggestion{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;  
+}
+
+.game-price{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+}
+
+.game-purchase-btn-suggestion{
+    padding: 4px 9px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(192, 190, 182);
+    cursor: pointer;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    margin-top: 7px;
+    font-style: normal; 
+    font-size: 12px;
+}

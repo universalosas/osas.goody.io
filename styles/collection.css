@@ -1,0 +1,249 @@
+.game-collections-container{
+    width: auto;
+    height: 360px;
+    position: relative;
+}
+
+.cover-background-collection{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-collection-container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    background-color: rgba(2, 2, 36, 0.89);
+    width: 100%;
+    height: 100%;
+}
+
+.content-collection-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.image-container-game-collection{
+    width: 60%;
+    height: 100%;
+}
+
+.collection-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-collection-discription{
+    width: 40%;
+    padding: 12px 18px;
+}
+
+.head-text-collection{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+    color: rgb(245, 239, 239);
+    margin-bottom: 7px;
+}
+
+.paragraph-text-collection{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+    color: rgb(245, 239, 239);
+}
+
+.btn-collection{
+    padding: 12px 20px;
+    border: none;
+    border-radius: none;
+    background-color: rgb(255, 166, 0);
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    margin-top: 7px;
+}
+
+.collection-grid-game-chart{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.container-anime-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3px;
+    margin-right: 20px;
+}
+
+.card1{
+    margin-left: 0;
+}
+
+.last-card{
+    margin-right: 0;
+}
+
+.collection-link-container{
+    margin-top: 4px;
+}
+
+.collection-head{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.anime-plus-icon-btn{
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(192, 192, 201);
+    color: rgb(0, 0, 0);
+}
+
+
+.collection-game-image{
+    width: 80px !important;
+    height: auto !important;
+}
+.anime-discription{
+    width: 37%;
+}
+
+.my-gaming-video-collection-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.video-grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+
+.video-gameplay{
+    width: 100%;
+    height:  240.625px;
+    object-fit: cover;
+}
+
+.discription-of-video-text{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+    margin-bottom: 4.35px;
+}
+
+.icon-video-inline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heart-like-icon{
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.share-icon-video{
+    font-size: 28px;
+    margin-right: 16px;
+}
+
+.save-icon-video{
+    font-size: 20.54px;
+}
+
+.video-like-count{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+    margin-right: 16px;
+}
+
+.like-icon-container{
+    display: flex;
+    align-items: center;
+}
+
+.video-container-controls{
+    position: relative;
+}
+
+.control-btn-icon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 20;
+    border: none;
+    background-color: rgba(29, 4, 4, 0.822);
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.control-button .bi{
+    color: white;
+    font-size: 30px;
+}
+
+.purchase-details{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3.55px;
+}
+
+.onsales-game-collection{
+    margin: 0;
+}
+
+.image-ratio-cart-game{
+    width: auto !important;
+    height: 20px !important;
+    margin: 3px 0;
+}
+
+.cart-icon-purchase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    margin: 0;
+    margin-right: 13px;
+}
+
+.game-amount-small{
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.grid-onsale-game-collection{
+    grid-gap: 15px;
+    grid-template-columns: repeat(5, 1fr);
+}

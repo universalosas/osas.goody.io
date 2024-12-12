@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/swiper-page.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/Untitled-1.png">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+
+      </div>
+      <div class="right-section">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <a class="home-navigation-link" href="index.html">
+        <div class="sidebar-link">
+          <img src="icons/home.svg">
+          <div>Home</div>
+        </div>
+      </a>
+      <div class="sidebar-link">
+        <img src="icons/heart.svg">
+        <div>Favourite</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Recent live</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <a href="my-videos.html"><div>GamePlay</div></a>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <a href="collection.html"><div>Collection</div></a>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/info-circle.svg">
+        <div>Help Center</div>
+      </div>
+    </nav>
+
+    <main>     
+    <div class="learn-about-osas-goody-container">
+      <div class="profile-container">
+        <h1 class="learn-head-text">You are on to Osas Goody!</h1>
+        <p class="learn-paragraph-text">View my Job Categories, Experience and Recent job and template</p>
+        <a class="learn-link-text" href="#">universalosasgoody@gmail.com</a>
+      </div>
+      <div class="job-parent-container">
+        <div class="box-profile-container">
+          <div class="profile-nested-container">
+            <div class="profile-icon"><i class="bi bi-code-slash"></i></div>
+            <p class="profile-space-name">Web/Application Development</p>
+          </div>
+          <div class="profile-nested-container">
+            <div class="profile-icon"><i class="bi bi-bezier2"></i></div>
+            <p class="profile-space-name">Graphic Design and Microsoft suite</p>
+          </div>
+          <div class="profile-nested-container">
+            <div class="profile-icon"><i class="bi bi-youtube"></i></div>
+            <p class="profile-space-name">Youtube Content Creating</p>
+          </div>
+          <div class="profile-nested-container">
+            <div class="profile-icon"><i class="bi bi-controller"></i></div>
+            <p class="profile-space-name">Gaming</p>
+          </div>
+        </div>
+        <div class="contact">
+          <p class="paragraph-link-contact">Contact always contact me <a href="#">Here</a> and learn More about Me <a href="#">Here</a></p>
+        </div>
+      </div>
+    </div>
+
+      <!-- Slider container -->
+      <div class="slider">
+        <!-- Slider images -->
+        <div class="slide active bigger">
+          <img src="general-images-folder/fortnite (3).jfif" alt="Image 1">
+          <div class="absolute-slide-container slide-1-absolute">
+            <div class="content-slide">
+              <h2 class="head-text-slide-1">Join me on my bigggest final live CyberPunk Battle</h2>
+              <p class="display-text-slide-1">it's about going down on my final CyberPunk clash. I bet 
+                you don't want to miss this.</p>
+              <div class="btn-container">
+                <button class="details-btn-slide-1"> <img class="svg-play-icon-btn" 
+                  src="icons/play_arrow.svg" alt=""></button>
+              </div>
+            </div>
+          </div>
+        </div> 
+        
+        </div>
+
+
+        <div class="parent-container-center-text">
+          <div class="container-center-text">
+            <h2 class="top-stream-text">Stream Every of my possible live game and join community of gaming 
+              and computer insigt</h2>
+            <button class="download-game-btn">Download GamePlay</button>
+          </div>
+        </div>
+
+
+        <div class="container-community-form">
+          <div class="nested-flex-image">
+            <img class="nesletter-subscription-image" src="general-images-folder/IMG_2246.JPG" alt="">
+          </div>
+          <div class="form-container-flex">
+            <h3 class="text-subcribe-head-text">Subcribe to get every possible inisgt on my platform</h3>
+            <input class="input-element" type="name" placeholder="Type in your first name">
+            <input class="input-element" type="name" placeholder="type in your second name">
+            <input class="input-element" type="email" placeholder="Fill in Email">  <br>
+            <button class="subscribe-btn-community">Subscribe</button>
+          </div>
+        </div>
+
+
+        <div class="project-box">
+          <img src="general-images-folder/56854rfgy654.png" alt="">
+          <div class="element-content-container">
+            <h2 class="box-game-project-text">Review my team current development on Universal Game Store</h2>
+            <p class="game-project-paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus earum fugiat nihil libero? Voluptatem aut facere laboriosam fugiat similique optio totam quis, illo, modi architecto, unde officiis eius harum doloremque.</p>
+            <button class="download-game-btn">Whats your thought?</button>
+          </div>
+        </div>
+
+
+        <div class="latest-hint-container">
+          <h1 class="head-text-hint-discription">Watch out for my up coming hints</h1>
+          <div class="child-container-hint">
+            <div class="container-hint hint-container1">
+              <h3 class="head-text-hint">up-coming life video game to be hosted on youtube</h3>
+              <p class="text-paragraph-hint">Want to see how far my gaming skills? just right in watch out 
+                on the 31st of December for my multi-gaming show featuring games like 
+                <a href="#">Cyber-Punk</a> <a href="#">Call of Duty</a> and other war games.
+              </p>
+              <a class="text-paragraph-hint" href="#">click link to subscribe to my youtube or newsletter 
+                update</a> <br>
+                <img class="hint-container1-image" src="general-images-folder/gamecontro.png" width="80px" alt="">
+            </div>
+            <div class="container-hint hint-container2">
+              <h3 class="head-text-hint">Subscribe and stay alert for my new HTML and CSS book</h3>
+              <p class="text-paragraph-hint"> provides every insigt and information about HTML 
+                (Hypertext Markup Language), CSS (Cascading Style Sheet). 
+              </p>
+              <a class="text-paragraph-hint" href="#">Read more about book</a> <br>
+            </div>
+            <div class="container-hint hint-container3">
+
+              <h3 class="head-text-hint">Join Universal Youtube Channel</h3>
+              <p class="text-paragraph-hint">subcribe to my channel to get the best tech info/insigt, live 
+                GamePlay, and exciting content. </p>
+              <a class="text-paragraph-hint" href="#">Subcribe Now!</a> <br>
+                <img class="hint-container1-image" src="general-images-folder/youtube image34.png" width="80px" alt="">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="best-selling-game-container">
+          <div class="head-name">
+            <h3 class="head-name-text">My best Selling Games</h3>
+            <a class="link-view-more" href="#">View all games</a>
+          </div>
+          <div class="selling-game-parent-container">
+            <div class="selling-game-child-container">
+              <img src="game image/Dead by daylight (2).jpg" alt="">
+              <p class="game-name">Dead by Daylight</p>
+              <small class="game-categories">Adventure, Action +1</small> <br>
+              <button class="purchase-button">Purchase</button>
+            </div>
+            <div class="selling-game-child-container">
+              <img src="game image/minecraft.png" alt="">
+              <p class="game-name">Minecraft</p>
+              <small class="game-categories">Adventure, Action</small> <br>
+              <button class="purchase-button">Purchase</button>
+            </div>
+            <div class="selling-game-child-container">
+              <img src="game image/call of Duty modern warfare.jfif" alt="">
+              <p class="game-name">Modern Warfare</p>
+              <small class="game-categories">Adventure, Action +3</small> <br>
+              <button class="purchase-button">Purchase</button>
+            </div>
+            <div class="selling-game-child-container">
+              <img src="game image/Counter-Strike 2.jpg" alt="">
+              <p class="game-name">Counter Strke</p>
+              <small class="game-categories">Action, Cops +1</small> <br>
+              <button class="purchase-button">Purchase</button>
+            </div>
+            <div class="selling-game-child-container display-none">
+              <img src="game image/cyberpunk.jpg" alt="">
+              <p class="game-name">CyberPunk</p>
+              <small class="game-categories">Adventure, Thef +1</small><br>
+              <button class="purchase-button">Purchase</button>
+            </div>
+            <div class="selling-game-child-container query-display-none">
+              <img src="game image/battlefield (2).jpg" alt="">
+              <p class="game-name">Battlefield</p>
+              <small class="game-categories">Adventure, Action +1</small> <br>
+              <button class="purchase-button">Purchase</button>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="collection-list">
+          <div class="head-name">
+            <h3 class="head-name-text">Collection</h3>
+            <a class="link-view-more" href="#">view All</a>
+          </div>
+
+          <div class="grid-collection">
+            <div class="collection-container">
+              <img src="game image/Spider-Man 2!.jpg" alt="">
+              <div class="absolute-container-collection">
+                <h2 class="collection-name">Super Adventure Games</h2>
+              </div>
+            </div>
+            <div class="collection-container">
+              <img src="game image/Anime game image.JPG" alt="">
+              <div class="absolute-container-collection">
+                <h2 class="collection-name">Annimation Club</h2>
+              </div>
+            </div>
+            <div class="collection-container colection-display-none-query">
+              <img src="game image/fortnite.jfif" alt="">
+              <div class="absolute-container-collection ">
+                <h2 class="collection-name">Mobile and PC Games</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="favourite-app-container">
+          <div class="head-name">
+            <h3 class="head-name-text">Follow me on my social handles</h3>
+            <a class="link-view-more" href="#">Social Names</a>
+          </div>
+
+          <div class="grid-container-social-apps">
+            <div class="nested-social-account">
+              <div class="image-container-media ">
+                <img class="social-media-image-icon" src="icons/1298747_instagram_brand_logo_social media_icon.png" alt="">
+              </div>
+              <div class="social-account-information">
+                <p class="social-account-name">Instagram</p>
+                <div class="information-type">
+                  <small class="media-information">31 Post</small>
+                  <button class="media-action-btn">Follow</button>
+                </div>
+              </div>
+            </div>
+            <div class="nested-social-account">
+              <div class="image-container-media media-container1">
+                <img class="social-media-image-icon" src="icons/4375133_logo_youtube_icon.svg" alt="">
+              </div>
+              <div class="social-account-information">
+                <p class="social-account-name">Youtube</p>
+                <div class="information-type">
+                  <small class="media-information">26 Videos</small>
+                  <button class="media-action-btn">Subcribe</button>
+                </div>
+              </div>
+            </div>
+            <div class="nested-social-account">
+              <div class="image-container-media media-container2">
+                <img class="social-media-image-icon" src="icons/5296499_fb_facebook_facebook logo_icon.png" alt="">
+              </div>
+              <div class="social-account-information">
+                <p class="social-account-name">Facebook</p>
+                <div class="information-type">
+                  <small class="media-information">23 Post</small>
+                  <button class="media-action-btn">Follow</button>
+                </div>
+              </div>
+            </div>
+            <div class="nested-social-account">
+              <div class="image-container-media media-container3">
+                <img class="social-media-image-icon" src="icons/10984531_threads_thread_app_mobile_icon.png" alt="">
+              </div>
+              <div class="social-account-information">
+                <p class="social-account-name">Thread</p>
+                <div class="information-type">
+                  <small class="media-information">35 Threads</small>
+                  <button class="media-action-btn">Follow</button>
+                </div>
+              </div>
+            </div>
+            <div class="nested-social-account">
+              <div class="image-container-media media-container4">
+                <img class="social-media-image-icon" src="icons/11244080_x_twitter_elon musk_twitter new logo_icon.svg" alt="">
+              </div>
+              <div class="social-account-information">
+                <p class="social-account-name">X</p>
+                <div class="information-type">
+                  <small class="media-information">44 Tweet</small>
+                  <button class="media-action-btn">Follow</button>
+                </div>
+              </div>
+            </div>
+            <div class="nested-social-account">
+
+              <div class="image-container-media media-container5">
+                <img class="social-media-image-icon" src="icons/4490623_internet_linkedln_media_social_social media_icon.png" alt="">
+              </div>
+              <div class="social-account-information">
+                <p class="social-account-name">Linkedln</p>
+                <div class="information-type">
+                  <small class="media-information">6 post</small>
+                  <button class="media-action-btn">Subcribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="game-chart-osas-goody">
+          <div class="text-box-gaming-chat">
+            <h1 class="content-chart-head-text">Stay Updated with my Top ten weekly gaming chart</h1>
+            <p class="paragraph-chart-text">new top game every friday</p>
+            <button class="btn-link-game-chart">see more</button>
+          </div>
+          <div class="grid-game-chart">
+            <div class="selling-game-child-container home-chart container-chart-game">
+              <img src="game image/call of Duty modern warfare.jfif" alt="">
+              <p class="game-name">Modern Warfare</p>
+              <small class="game-categories">Adventure, Action +3</small>
+              <button class="purchase-button chart-btn-purchase">Purchase</button>
+              <h1 class="absolute-position-chart-number">1</h1>
+            </div>
+            <div class="selling-game-child-container home-chart container-chart-game">
+              <img src="game image/battlefield (2).jpg" alt="">
+              <p class="game-name">Battlefield</p>
+              <small class="game-categories">Shooting, Action +2</small>
+              <button class="purchase-button chart-btn-purchase">Purchase</button>
+              <h1 class="absolute-position-chart-number">2</h1>
+            </div>
+            <div class="selling-game-child-container container-chart-game home-chart game-child-query-none">
+              <img src="game image/The Witcher 3 wild hunt.jpg" alt="">
+              <p class="game-name">Wild Hunt (Witcher) </p>
+              <small class="game-categories">Adventure, Sword +1</small>
+              <button class="purchase-button chart-btn-purchase">Purchase</button>
+              <h1 class="absolute-position-chart-number">3</h1>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="head-name">
+          <h3 class="head-name-text">My Most View Video</h3>
+          <a class="link-view-more" href="#">Visit Yotube</a>
+        </div>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="game image/fifa 23.jfif">
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                FIFA23 Preview Video feat. Halland, Son, Anthony and others
+              </p>
+              <p class="video-stats">
+                3.4M views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/miles morales.jpg">
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Watch My Adventures of Excellent miles of morals GamePlay
+              </p>
+              <p class="video-stats">
+                1.6M views &#183; 3 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/naraka blade point (2).jpg">
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Sword Battle! Naraka Gameplay (Blade Point)
+              </p>
+              <p class="video-stats">
+                904k views &#183; 8 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/NFS Heat (2).jfif">
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Down town drifting (epic need for speed game)
+              </p>
+              <p class="video-stats">
+                7.4M views &#183; 8 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+      
+    </main>
+
+    <script src="script folder/general-script.js"></script>
+  </body>
+</html>
