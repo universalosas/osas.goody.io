@@ -30,3 +30,21 @@
 .sidebar-link div {
   font-size: 10px;
 }
+
+@media (max-width: 700px) {
+    .sidebar{
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      top: auto;
+      justify-content: space-evenly;
+  }
+
+  body{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+

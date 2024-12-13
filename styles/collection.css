@@ -247,3 +247,30 @@
     grid-gap: 15px;
     grid-template-columns: repeat(5, 1fr);
 }
+
+/* Query styles for content in gameing collection first container */
+@media (max-width: 920px) {
+    .content-collection-container{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        object-fit: cover;
+    }
+
+    .game-collections-container{
+        height: auto;
+    }
+
+    .image-container-game-collection{
+        width: 100%;
+        height: auto;
+    }
+
+    .collection-image{
+        height: 270px;
+    }
+
+    .container-collection-discription{
+        width: 80%;
+    }
+}
