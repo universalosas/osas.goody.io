@@ -124,6 +124,7 @@
 .my-gaming-video-collection-container{
     margin-top: 20px;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .video-grid-container{
@@ -272,5 +273,150 @@
 
     .container-collection-discription{
         width: 80%;
+    }
+}
+
+@media (max-width: 800Px) {
+    .collection-image{
+        height: 180px;
+    }
+}
+
+@media (max-width: 640px) {
+    .collection-image{
+        height: 120px;
+    }
+}
+
+@media (max-width: 550px) {
+    .content-display-query-games{
+        position: relative;
+        background-color: rgb(2, 2, 36);
+    }
+
+    .collection-image{
+        height: auto;
+    }
+}
+
+/* styling media queries for collection cards container */
+@media (max-width: 1000px) {
+    .last-card{
+        display: none;
+    }
+
+    .collection-grid-game-chart{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 820px) {
+    .collection-grid-game-chart{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    .chart-query-card img{
+        height: 320px;
+    }
+}
+
+@media (max-width: 520px) {
+    .collection-grid-game-chart{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .chart-query-card img{
+        height: 410px;
+    }
+
+    .last-card{
+        display: block;
+    }
+}
+
+/* anime papers collection query styles */
+@media (max-width: 940px) {
+    .cover-background-collection{
+        height: 500px;
+    }
+}
+
+@media (max-width: 800Px) {
+    .query-container-anime{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+
+    .papers-content-collection-conatainer{
+        position: relative;
+        background-color: rgb(2, 2, 36);
+    }
+
+    .cover-background-collection{
+        height: 300px;
+    }
+
+    .anime-image-collection{
+        height: 400px !important;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .query-container-anime{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* query css styles for gaming video collection */
+@media (max-width: 1000px) {
+    .video-grid-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .video-grid-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .video-gameplay{
+        height: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .video-gameplay{
+        height: auto;
+    }
+}
+
+/* query css styles for selling grid games */
+@media (max-width: 1100px) {
+    .grid-onsale-game-collection{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 890px) {
+    .grid-onsale-game-collection{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .grid-onsale-game-collection{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 460px) {
+    .grid-onsale-game-collection{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .onsales-game-collection img{
+        height: 400px;
     }
 }
