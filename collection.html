@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/swiper-page.css">
+    <link rel="stylesheet" href="styles/collection.css">
+  </head>
+  <body class="body-element-video-page">
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/Untitled-1.png">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+
+      </div>
+      <div class="right-section">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <a class="home-navigation-link" href="index.html">
+        <div class="sidebar-link">
+          <img src="icons/home.svg">
+          <div>Home</div>
+        </div>
+      </a>
+      <div class="sidebar-link">
+        <img src="icons/heart.svg">
+        <div>Favourite</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Recent live</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>GamePlay</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Collection</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/info-circle.svg">
+        <div>Help Center</div>
+      </div>
+    </nav>
+
+    <main class="main-content-video"> 
+        
+        <div class="head-name">
+            <h3 class="head-name-text">Gaming Collection</h3>
+            <a class="link-view-more" href="#">view All</a>
+          </div>
+        <div class="game-collections-container">
+            <img class="cover-background-collection" src="game image/pubg.webp" alt="">
+            <div class="content-collection-container content-display-query-games">
+                <div class="container-collection-discription">
+                    <h1 class="head-text-collection">Every piece of my Gaming collection saved for you</h1>
+                    <p class="paragraph-text-collection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi harum sint iusto mollitia labore. Nihil eum exercitationem architecto. </p>
+                    <button class="btn-collection">View collection</button>
+                </div>
+                <div class="image-container-game-collection">
+                    <img class="collection-image" src="game image/game collection.png" width="70%" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="collection-list">
+            <div class="head-name">
+              <h3 class="head-name-text">My Game Categories</h3>
+              <a class="link-view-more" href="#">view All</a>
+            </div>
+  
+            <div class="grid-collection">
+              <div class="collection-container">
+                <img src="game image/callofduty.jpg" alt="">
+                <div class="absolute-container-collection">
+                  <h2 class="collection-name">Non Stop Shooting</h2>
+                </div>
+              </div>
+              <div class="collection-container">
+                <img src="game image/the last part of us.jfif" alt="">
+                <div class="absolute-container-collection">
+                  <h2 class="collection-name">Games Based on Movies</h2>
+                </div>
+              </div>
+              <div class="collection-container">
+                <img src="game image/forza horizon 4.jfif" alt="">
+                <div class="absolute-container-collection">
+                  <h2 class="collection-name">Driving, shooting, war</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="head-name collection-link-container">
+            <h3 class="head-name-text collection-head">My Gaming Chart Collection</h3>
+            <a class="link-view-more" href="my-game-chart.html">view All</a>
+        </div>
+          <div class="game-chart-osas-goody">
+
+            <div class="grid-game-chart collection-grid-game-chart">
+              <div class="selling-game-child-container container-chart-game card1 chart-query-card">
+                <img src="game image/call of Duty modern warfare.jfif" alt="">
+                <p class="game-name">Modern Warfare</p>
+                <small class="game-categories">Adventure, Action +3</small> <br>
+                <button class="purchase-button chart-btn-purchase">Purchase</button>
+                <h1 class="absolute-position-chart-number">1</h1>
+              </div>
+              <div class="selling-game-child-container container-chart-game chart-query-card">
+                <img src="game image/battlefield (2).jpg" alt="">
+                <p class="game-name">Battlefield</p>
+                <small class="game-categories">Shooting, Action +2</small> <br>
+                <button class="purchase-button chart-btn-purchase">Purchase</button>
+                <h1 class="absolute-position-chart-number">2</h1>
+              </div>
+              <div class="selling-game-child-container container-chart-game chart-query-card">
+                <img src="game image/The Witcher 3 wild hunt.jpg" alt="">
+                <p class="game-name">Wild Hunt (Witcher) </p>
+                <small class="game-categories">Adventure, Sword +1</small> <br>
+                <button class="purchase-button chart-btn-purchase">Purchase</button>
+                <h1 class="absolute-position-chart-number">3</h1>
+              </div>
+              <div class="selling-game-child-container container-chart-game chart-query-card">
+                <img src="game image/PUBG.png" alt="">
+                <p class="game-name">Battleground (Pubg)</p>
+                <small class="game-categories">Adventure, Action +1</small> <br>
+                <button class="purchase-button chart-btn-purchase">Purchase</button>
+                <h1 class="absolute-position-chart-number">4</h1>
+              </div>
+              
+              <div class="selling-game-child-container container-chart-game last-card chart-query-card">
+                <img src="game image/surbway Surfers.jpg" alt="">
+                <p class="game-name">surbway Surfers</p>
+                <small class="game-categories">Adventure, Event</small> <br>
+                <button class="purchase-button chart-btn-purchase">Purchase</button>
+                <h1 class="absolute-position-chart-number">5</h1>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="head-name">
+            <h3 class="head-name-text">My Anime Papers</h3>
+            <a class="link-view-more" href="#">view All</a>
+          </div>
+        <div class="game-collections-container">
+            <img class="cover-background-collection" src="anime image/IMG_2399.JPG" alt="">
+            <div class="content-collection-container papers-content-collection-conatainer">
+                <div class="container-collection-discription anime-discription">
+                    <h1 class="head-text-collection">Anime Papers </h1>
+                    <p class="paragraph-text-collection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi harum sint iusto mollitia labore. Nihil </p>
+                    <button class="btn-collection">View collection</button>
+                </div>
+                <div class="container-anime-grid query-container-anime">
+                  <div class="selling-game-child-container container-chart-game ">
+                    <img class="anime-image-collection" src="anime image/IMG_2399.JPG" alt="">
+                      <img class="collection-game-image" src="general-images-folder/rating-50.png" alt=""> <br>
+                    <button class="anime-plus-icon-btn"><i class="bi bi-arrow-down"></i></button>
+                  </div>
+                  <div class="selling-game-child-container container-chart-game">
+                    <img class="anime-image-collection"" src="anime image/IMG_2403.JPG" alt="">
+                    <img class="collection-game-image" src="general-images-folder/rating-25.png" alt=""> <br>
+                    <button class="anime-plus-icon-btn"><i class="bi bi-arrow-down"></i></button>
+                  </div>
+                  <div class="selling-game-child-container container-chart-game ">
+                    <img class="anime-image-collection" src="anime image/IMG_2405.JPG" alt="">
+                    <img class="collection-game-image" src="general-images-folder/rating-45.png" alt=""> <br>
+                    <button class="anime-plus-icon-btn"><i class="bi bi-arrow-down"></i></button>
+                  </div>
+                  <div class="selling-game-child-container container-chart-game ">
+                    <img class="anime-image-collection" src="anime image/WhatsApp Image 2024-12-06 at 10.45.32 PM (1).jpeg" alt="">
+                    <img class="collection-game-image" src="general-images-folder/rating-30.png" alt=""> <br>
+                    <button class="anime-plus-icon-btn"><i class="bi bi-plus-lg"></i></button>
+                  </div>
+                  
+                </div>
+            </div>
+        </div>
+
+
+        <div class="my-gaming-video-collection-container">
+          <div class="head-name">
+            <h3 class="head-name-text">My Gaming Video Collection</h3>
+            <a class="link-view-more" href="#">view All</a>
+          </div>
+          <div class="video-grid-container">
+            <div class="nested-video-container">
+              <div class="video-container-controls">
+                <video id="video1" class="video-gameplay" src="video gameplay/Fifa 23 the world game.mp4"></video>
+                <button class=" control-button control-btn-icon" onclick="togglePlayPause('video1')">
+                  <i class="bi bi-play-fill"></i>
+                </button>
+              </div>
+              <div class="content-text-video">
+                <p class="discription-of-video-text">Watch Fifa 23 trailer. Every sparkling dribble, freekicks, save, shots, corner and long 
+                  shot
+                </p>
+                <div class="icon-video-inline">
+                  <div class="like-icon-container">
+                    <i class="bi bi-heart heart-like-icon"></i>
+                    <small class="video-like-count">2403</small>
+                    <i class="bi bi-reply share-icon-video"></i>
+                    <i class="bi bi-box-arrow-down save-icon-video"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nested-video-container">
+              <div class="video-container-controls">
+                <video id="video2" class="video-gameplay" src="video gameplay/pubg.mp4" ></video>
+                <button class=" control-button control-btn-icon" onclick="togglePlayPause('video2')">
+                  <i class="bi bi-play-fill"></i>
+                </button>
+              </div>
+              <div class="content-text-video">
+                <p class="discription-of-video-text"> 
+                  Watch every action on the battleground (PUBG) and all its animated actors
+                </p>
+                <div class="icon-video-inline">
+                  <div class="like-icon-container">
+                    <i class="bi bi-heart heart-like-icon"></i>
+                    <small class="video-like-count">2403</small>
+                    <i class="bi bi-reply share-icon-video"></i>
+                    <i class="bi bi-box-arrow-down save-icon-video"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nested-video-container">
+              <div class="video-container-controls">
+                <video id="video3" class="video-gameplay" src="video gameplay/need for speed.mp4" ></video>
+                <button class=" control-button control-btn-icon" onclick="togglePlayPause('video3')">
+                  <i class="bi bi-play-fill"></i>
+                </button>
+              </div>
+              <div class="content-text-video">
+                <p class="discription-of-video-text">
+                  Need for speed! just cars and cars 
+                </p>
+                <div class="icon-video-inline">
+                  <div class="like-icon-container">
+                    <i class="bi bi-heart heart-like-icon"></i>
+                    <small class="video-like-count">2403</small>
+                    <i class="bi bi-reply share-icon-video"></i>
+                    <i class="bi bi-box-arrow-down save-icon-video"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nested-video-container">
+              <div class="video-container-controls">
+                <video id="video4" class="video-gameplay" src="video gameplay/WhatsApp Video 2024-12-12 at 12.36.58 AM.mp4" ></video>
+                <button class=" control-button control-btn-icon" onclick="togglePlayPause('video4')">
+                  <i class="bi bi-play-fill"></i>
+                </button>
+              </div>
+              <div class="content-text-video">
+                <p class="discription-of-video-text">
+                  Need for speed! just cars and cars 
+                </p>
+                <div class="icon-video-inline">
+                  <div class="like-icon-container">
+                    <i class="bi bi-heart heart-like-icon"></i>
+                    <small class="video-like-count">2403</small>
+                    <i class="bi bi-reply share-icon-video"></i>
+                    <i class="bi bi-box-arrow-down save-icon-video"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nested-video-container">
+              <div class="video-container-controls">
+                <video id="video5" class="video-gameplay" src="video gameplay/WhatsApp Video 2024-12-12 at 12.41.31 AM.mp4" ></video>
+                <button class=" control-button control-btn-icon" onclick="togglePlayPause('video5')">
+                  <i class="bi bi-play-fill"></i>
+                </button>
+              </div>
+              <div class="content-text-video">
+                <p class="discription-of-video-text">
+                  Need for speed! just cars and cars 
+                </p>
+                <div class="icon-video-inline">
+                  <div class="like-icon-container">
+                    <i class="bi bi-heart heart-like-icon"></i>
+                    <small class="video-like-count">2403</small>
+                    <i class="bi bi-reply share-icon-video"></i>
+                    <i class="bi bi-box-arrow-down save-icon-video"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nested-video-container">
+              <div class="video-container-controls">
+                <video id="video6" class="video-gameplay" src="video gameplay/killer bean.mp4" ></video>
+                <button class=" control-button control-btn-icon" onclick="togglePlayPause('video6')">
+                  <i class="bi bi-play-fill"></i>
+                </button>
+              </div>
+              <div class="content-text-video">
+                <p class="discription-of-video-text">
+                  Need for speed! just cars and cars 
+                </p>
+                <div class="icon-video-inline">
+                  <div class="like-icon-container">
+                    <i class="bi bi-heart heart-like-icon"></i>
+                    <small class="video-like-count">2403</small>
+                    <i class="bi bi-reply share-icon-video"></i>
+                    <i class="bi bi-box-arrow-down save-icon-video"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="head-name">
+          <h3 class="head-name-text">Gaming Paper Collection</h3>
+          <a class="link-view-more" href="#">view All</a>
+        </div>
+      <div class="game-collections-container container-game-collection-query">
+          <img class="cover-background-collection" src="game-wallpaper/IMG_2430.JPG" alt="">
+          <div class="content-collection-container papers-content-collection-conatainer">
+              <div class="container-collection-discription anime-discription">
+                  <h1 class="head-text-collection">Gaming Papers Collection</h1>
+                  <p class="paragraph-text-collection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi harum sint iusto mollitia labore. Nihil </p>
+                  <button class="btn-collection">View collection</button>
+              </div>
+              <div class="container-anime-grid query-container-anime">
+                <div class="selling-game-child-container container-chart-game ">
+                  <img class="anime-image-collection" src="game-wallpaper/IMG_2440.JPG" alt="">
+                    <img class="collection-game-image" src="general-images-folder/rating-50.png" alt=""> <br>
+                  <button class="anime-plus-icon-btn"><i class="bi bi-arrow-down"></i></button>
+                </div>
+                <div class="selling-game-child-container container-chart-game">
+                  <img class="anime-image-collection" src="game-wallpaper/IMG_2436.JPG" alt="">
+                  <img class="collection-game-image" src="general-images-folder/rating-25.png" alt=""> <br>
+                  <button class="anime-plus-icon-btn"><i class="bi bi-arrow-down"></i></button>
+                </div>
+                <div class="selling-game-child-container container-chart-game ">
+                  <img class="anime-image-collection" src="game-wallpaper/IMG_2429.JPG" alt="">
+                  <img class="collection-game-image" src="general-images-folder/rating-45.png" alt=""> <br>
+                  <button class="anime-plus-icon-btn"><i class="bi bi-arrow-down"></i></button>
+                </div>
+                <div class="selling-game-child-container container-chart-game  ">
+                  <img class="anime-image-collection" src="game-wallpaper/IMG_2432.JPG" alt="">
+                  <img class="collection-game-image" src="general-images-folder/rating-30.png" alt=""> <br>
+                  <button class="anime-plus-icon-btn"><i class="bi bi-plus-lg"></i></button>
+                </div>
+                
+              </div>
+          </div>
+      </div>
+
+
+      <div class="best-selling-game-container">
+        <div class="head-name">
+          <h3 class="head-name-text">My best Selling Games</h3>
+          <a class="link-view-more" href="#">View all games</a>
+        </div>
+        <div class="selling-game-parent-container grid-onsale-game-collection">
+          <div class="selling-game-child-container onsales-game-collection">
+            <img src="game image/Dying Light 2 (stay Human).jpg" alt="">
+            <p class="game-name">Dyling LIght 2t</p>
+            <small class="game-categories">Adventure, Action +1</small> <br>
+            <img class="image-ratio-cart-game" src="general-images-folder/rating-30.png" alt="">
+            <div class="purchase-details">
+              <div class="purchase-button cart-icon-purchase"><i class="bi bi-cart3"></i></div>
+              <p class="game-amount-small">$9.03</p>
+            </div>
+          </div>
+          <div class="selling-game-child-container onsales-game-collection">
+            <img src="game image/PUBG.png" alt="">
+            <p class="game-name">Battleground (PUBG)</p>
+            <small class="game-categories">Shooting, Action +3</small> <br>
+            <img class="image-ratio-cart-game" src="ratings/rating-45.png" alt="">
+            <div class="purchase-details">
+              <div class="purchase-button cart-icon-purchase"><i class="bi bi-cart3"></i></div>
+              <p class="game-amount-small">$13.21</p>
+            </div>
+          </div>
+          <div class="selling-game-child-container onsales-game-collection">
+            <img src="game image/hitman.jpg" alt="">
+            <p class="game-name">Hitman</p>
+            <small class="game-categories">Mission, Action +2</small> <br>
+            <img class="image-ratio-cart-game" src="ratings/rating-40.png" alt="">
+            <div class="purchase-details">
+              <div class="purchase-button cart-icon-purchase"><i class="bi bi-cart3"></i></div>
+              <p class="game-amount-small">$21.08</p>
+            </div>
+          </div>
+          <div class="selling-game-child-container onsales-game-collection">
+            <img src="game image/the last of us.jpg" alt="">
+            <p class="game-name">The last of us</p>
+            <small class="game-categories">Adventure, Action +1</small> <br>
+            <img class="image-ratio-cart-game" src="ratings/rating-50.png" alt="">
+            <div class="purchase-details">
+              <div class="purchase-button cart-icon-purchase"><i class="bi bi-cart3"></i></div>
+              <p class="game-amount-small">$11.89</p>
+            </div>
+          </div>
+          <div class="selling-game-child-container onsales-game-collection">
+            <img src="game image/once human (4).jpg" alt="">
+            <p class="game-name">Once Human</p>
+            <small class="game-categories">Adventure, Action </small> <br>
+            <img class="image-ratio-cart-game" src="ratings/rating-15.png" alt="">
+            <div class="purchase-details">
+              <div class="purchase-button cart-icon-purchase"><i class="bi bi-cart3"></i></div>
+              <p class="game-amount-small">$8.23</p>
+            </div>
+          </div>
+          <div class="selling-game-child-container onsales-game-collection">
+            <img src="game image/naraka Bladepoint.jpg" alt="">
+            <p class="game-name">Naraka Bladepoint</p>
+            <small class="game-categories">Adventure, Sword +2</small> <br>
+            <img class="image-ratio-cart-game" src="ratings/rating-25.png" alt="">
+            <div class="purchase-details">
+              <div class="purchase-button cart-icon-purchase"><i class="bi bi-cart3"></i></div>
+              <p class="game-amount-small">$6.40</p>
+            </div>
+          </div>
+          <div class="selling-game-child-container onsales-game-collection">
+            <img src="game image/fifa 23.jfif" alt="">
+            <p class="game-name">FIFA23</p>
+            <small class="game-categories">Football, Live +2</small> <br>
+            <img class="image-ratio-cart-game" src="ratings/rating-35.png" alt="">
+            <div class="purchase-details">
+              <div class="purchase-button cart-icon-purchase"><i class="bi bi-cart3"></i></div>
+              <p class="game-amount-small">$7.33</p>
+            </div>
+          </div>
+          <div class="selling-game-child-container onsales-game-collection">
+            <img src="game image/Horizon Zero dwon.jpg" alt="">
+            <p class="game-name">Horizon Zero Down</p>
+            <small class="game-categories">Adventure, Action </small> <br>
+            <img class="image-ratio-cart-game" src="general-images-folder/rating-30.png" alt="">
+            <div class="purchase-details">
+              <div class="purchase-button cart-icon-purchase"><i class="bi bi-cart3"></i></div>
+              <p class="game-amount-small">$10.00</p>
+            </div>
+          </div>
+          <div class="selling-game-child-container onsales-game-collection">
+            <img src="game image/Tomb Rader.jfif" alt="">
+            <p class="game-name">Tomb Rader</p>
+            <small class="game-categories">Adventure, Action +1</small> <br>
+            <img class="image-ratio-cart-game" src="ratings/rating-25.png" alt="">
+            <div class="purchase-details">
+              <div class="purchase-button cart-icon-purchase"><i class="bi bi-cart3"></i></div>
+              <p class="game-amount-small">$9.69</p>
+            </div>
+          </div><div class="selling-game-child-container onsales-game-collection">
+            <img src="game image/sanadreas.jfif" alt="">
+            <p class="game-name">Sandress GTA</p>
+            <small class="game-categories">Thef, Shooting +1</small> <br>
+            <img class="image-ratio-cart-game" src="ratings/rating-50.png" alt="">
+            <div class="purchase-details">
+              <div class="purchase-button cart-icon-purchase"><i class="bi bi-cart3"></i></div>
+              <p class="game-amount-small">$18.20</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+    </main>
+
+    <script src="script folder/general-script.js"></script>
+  </body>
+</html>
