@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/swiper-page.css">
+    <link rel="stylesheet" href="styles/collection.css">
+    <link rel="stylesheet" href="styles/my-game-chart.css">
+  </head>
+  <body class="body-element-video-page">
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/Untitled-1.png">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+
+      </div>
+      <div class="right-section">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="general-images-folder/osas Goody.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <a class="home-navigation-link" href="index.html">
+        <div class="sidebar-link">
+          <img src="icons/home.svg">
+          <div>Home</div>
+        </div>
+      </a>
+      <div class="sidebar-link">
+        <img src="icons/heart.svg">
+        <div>Favourite</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Recent live</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>GamePlay</div>
+      </div>
+      <a class="link-collection-nav" href="collection.html">
+        <div class="sidebar-link">
+          <img src="icons/library.svg">
+          <div>Collection</div>
+        </div>
+      </a>
+      <div class="sidebar-link">
+        <img src="icons/info-circle.svg">
+        <div>Help Center</div>
+      </div>
+    </nav>
+
+    <main class="content-chart-history"> 
+        <div class="main-content-area">
+            <div class="game-chart-1">
+                <img class="image-first-chart-game" src="game image/callofduty.jpg" alt="">
+            </div>
+            <div class="absolute-content-game-chart-1">
+                <div class="image-container-chart">
+                    <img class="first-game-chart-image" src="game image/call of Duty modern warfare.jfif" width="250px" alt="">
+                </div>
+                <div class="content-text-link-game-chart-1">
+                    <h1 class="game-name-chart1"><span class="top1-text">1</span> Modern Warfare</h1>
+                    <img class="rating-chart-1" src="ratings/rating-45.png" alt="">
+                    <div class="game-category">
+                        <button class="button-category-game-chart">Shooting</button>
+                        <button class="button-category-game-chart">Adventure</button>
+                        <button class="button-category-game-chart">Mission</button>
+                        <button class="button-category-game-chart">Action</button>
+                    </div>
+                    <small class="text-chart1-discription">consectetur adipisicing elit. Velit, consequuntur fugit illum quisquam omnis, quaerat, facere consectetur ex repellendus voluptatibus dicta excepturi ad maxime? Voluptas sequi culpa consequatur non itaque?</small>
+                    <div class="purchase-details">
+                        <div class="purchase-button cart-icon-purchase"><i class="bi bi-cart3"></i></div>
+                        <p class="game-amount-small">$10.00</p>
+                    </div>
+                    <div class="discount-chart1">
+                        Spend Less and check out our promo bundles on action games
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scrollable-chart-area">
+            <div>
+              <h2>My Top 25 Gaming Chart Collection</h2>
+            <div class="container-all-gaming-collection">
+                <div class="nested-gaming-collection-chart">
+                    <div class="chart-number">
+                        <small class="chart-number-text">2</small>
+                        <i class="bi bi-caret-up-fill up-arrow-icon"></i>
+                    </div>
+                    <img class="game-chart-image" src="game image/battlefield.jfif" width="99px" alt="">
+                    <div class="game-name-category">
+                        <p class="game-name-chart">Battlefield</p>
+                        <p class="game-category-chart">Action shooting +1</p>
+                    </div>
+                </div>
+                <div class="nested-gaming-collection-chart">
+                    <div class="chart-number">
+                      <small class="chart-number-text">3</small>
+                      <i class="bi bi-caret-up-fill up-arrow-icon"></i>
+                    </div>
+                    <img class="game-chart-image" src="game image/The Witcher 3_ Wild Hunt.jpg" width="99px" alt="">
+                    <div class="game-name-category">
+                        <p class="game-name-chart">The Witcher 3</p>
+                        <p class="game-category-chart">Action Sword +1</p>
+                    </div>
+                </div>
+                <div class="nested-gaming-collection-chart">
+                    <div class="chart-number">
+                      <small class="chart-number-text">4</small>
+                      <i class="bi bi-caret-up-fill up-arrow-icon"></i>
+                    </div>
+                    <img class="game-chart-image" src="game image/pubg (2).jpg" width="99px" alt="">
+                    <div class="game-name-category">
+                        <p class="game-name-chart">The Witcher 3</p>
+                        <p class="game-category-chart">Action Sword +1</p>
+                    </div>
+                </div>
+                <div class="nested-gaming-collection-chart">
+                    <div class="chart-number">
+                      <small class="chart-number-text">5</small>
+                        <i class="bi bi-caret-down-fill down-drop-icon"></i>
+                    </div>
+                    <img class="game-chart-image" src="game image/subway surfers.jfif" width="99px" alt="">
+                    <div class="game-name-category">
+                        <p class="game-name-chart">The Witcher 3</p>
+                        <p class="game-category-chart">Action Sword +1</p>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            <div class="form-container-flex">
+              <h3 class="text-subcribe-head-text">Subcribe to get every possible inisgt on my platform</h3>
+              <input class="input-element" type="name" placeholder="Type in your first name">
+              <input class="input-element" type="name" placeholder="type in your second name">
+              <input class="input-element" type="email" placeholder="Fill in Email">  <br>
+              <button class="subscribe-btn-community">Subscribe</button>
+            </div>
+
+            <div class="container-all-gaming-collection">
+              <div class="nested-gaming-collection-chart">
+                  <div class="chart-number">
+                      <small class="chart-number-text">6</small>
+                      <i class="bi bi-caret-up-fill up-arrow-icon"></i>
+                  </div>
+                  <img class="game-chart-image" src="game image/dead by daylight.jpg" width="99px" alt="">
+                  <div class="game-name-category">
+                      <p class="game-name-chart">Dead by Daylight</p>
+                      <p class="game-category-chart">Mission Adventures +1</p>
+                  </div>
+              </div>
+              <div class="nested-gaming-collection-chart">
+                  <div class="chart-number">
+                    <small class="chart-number-text">7</small>
+                    <i class="bi bi-caret-down-fill down-drop-icon"></i>
+                  </div>
+                  <img class="game-chart-image" src="game image/fortnite.jfif" width="99px" alt="">
+                  <div class="game-name-category">
+                      <p class="game-name-chart">fortnite</p>
+                      <p class="game-category-chart">Action Adventures +1</p>
+                  </div>
+              </div>
+              <div class="nested-gaming-collection-chart">
+                  <div class="chart-number">
+                    <small class="chart-number-text">8</small>
+                    <i class="bi bi-caret-up-fill up-arrow-icon"></i>
+                  </div>
+                  <img class="game-chart-image" src="game image/medal of honor warfighter.jfif" width="99px" alt="">
+                  <div class="game-name-category">
+                      <p class="game-name-chart">Medal of Honor</p>
+                      <p class="game-category-chart">Action Shooting +2</p>
+                  </div>
+              </div>
+              <div class="nested-gaming-collection-chart">
+                  <div class="chart-number">
+                    <small class="chart-number-text">9</small>
+                      <i class="bi bi-caret-down-fill down-drop-icon"></i>
+                  </div>
+                  <img class="game-chart-image" src="game image/minecraft.jfif" width="99px" alt="">
+                  <div class="game-name-category">
+                      <p class="game-name-chart">Minecraft</p>
+                      <p class="game-category-chart">Adventures +1</p>
+                  </div>
+              </div>
+              <div class="nested-gaming-collection-chart">
+                <div class="chart-number">
+                  <small class="chart-number-text">10</small>
+                  <i class="bi bi-caret-up-fill up-arrow-icon"></i>
+                </div>
+                <img class="game-chart-image" src="game image/Spider-Man 2!.jpg" width="99px" alt="">
+                <div class="game-name-category">
+                    <p class="game-name-chart">Spider Man 2</p>
+                    <p class="game-category-chart">Action Adventures +1</p>
+                </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+    </main>
+
+    <script src="script folder/general-script.js"></script>
+  </body>
+</html>

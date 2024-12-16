@@ -35,6 +35,8 @@
 
 .video-youtube-iframe{
     border-radius: 10px;
+    height: 400px;
+    object-fit: cover;
 }
 
 .game-purchase-sugestions{
@@ -83,3 +85,4 @@
     font-style: normal; 
     font-size: 12px;
 }
+

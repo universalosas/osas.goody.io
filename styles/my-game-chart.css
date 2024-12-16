@@ -181,3 +181,57 @@
     color: rgb(196, 15, 15);
     font-size: 20px;
 }
+
+@media (max-width: 1100px) {
+    .content-chart-history{
+        flex-direction: column;
+    }
+
+    .main-content-area{
+        position: relative;
+        width: auto;
+        height: fit-content;
+        padding: 0;
+        overflow-y: auto;
+    }
+
+    .scrollable-chart-area{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       width: 100% !important;
+       grid-gap: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .scrollable-chart-area{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .first-game-chart-image{
+        display: none;
+    }
+}
+
+@media (max-width: 580px) {
+    .scrollable-chart-area{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .first-game-chart-image{
+        display: block;
+        width: 80%;
+        height: auto;
+    }
+
+    .absolute-content-game-chart-1{
+        flex-direction: column;
+    }
+
+    .game-chart-image{
+        width: 150px !important;
+        height: 90px;
+    }
+}
