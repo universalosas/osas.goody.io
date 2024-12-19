@@ -41,6 +41,79 @@
   align-items: center;
 }
 
+#triggerImage{
+  cursor: pointer;
+}
+
+.hidden{
+  display: none;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.dialog-profile-box{
+  width: 420px;
+  padding: 13px 18px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: fixed;
+  right: 5px;
+  top: 40px;
+  z-index: 4000;
+}
+
+/* Fade-in effect */
+.visible {
+  display: block;
+  opacity: 1;
+}
+
+.profile-image{
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  object-fit: cover;
+}
+
+.dialog-profile-text{
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal; 
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 6px;
+}
+
+.paragraph-about-text{
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal; 
+  margin-bottom: 8px;
+}
+
+.social-links{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.social-links-text-discription{
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal; 
+}
+
+.social-media-links-handle{
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 @media (max-width: 700px) {
   .middle-section{
     display: none;

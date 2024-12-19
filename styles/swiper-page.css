@@ -665,6 +665,26 @@ transform: translateX(-50%);
     padding: 14px 19px;
     background-color: rgb(248, 248, 248);
     border-radius: 9px;
+    cursor: pointer;
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.profile-nested-container:hover{
+    transform: scale(1.2);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.text-job-category-discription{
+    display: none;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+    font-size: 13px;
+}
+
+.profile-nested-container:hover .text-job-category-discription{
+    display: block;
 }
 
 .profile-icon{
@@ -811,6 +831,7 @@ transform: translateX(-50%);
     font-weight: 300;
     font-style: normal;    
 }
+
 
 .chart-btn-purchase{
     background-color: rgb(255, 208, 0);

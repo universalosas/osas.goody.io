@@ -42,3 +42,25 @@ function updateButton(videoId, text) {
   );
   button.innerHTML = text;
 }
+
+document.getElementById('triggerImage').addEventListener('click', function() {
+  const infoBox = document.getElementById('infoBox');
+
+  // Toggle visibility
+  if (infoBox.classList.contains('hidden')) {
+    infoBox.classList.remove('hidden');
+    infoBox.classList.add('visible');
+  } else {
+    infoBox.classList.remove('visible');
+    infoBox.classList.add('hidden');
+  }
+});
+
+
+
+// eventlistener to navigage to job-categories html file
+document.getElementById('js-job-category-nav').addEventListener('click', function() {
+  // Navigate to the target HTML page
+  window.location.href = 'job.categories.html'; 
+});
+

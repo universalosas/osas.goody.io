@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/swiper-page.css">
+    <link rel="stylesheet" href="styles/job.category.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/Untitled-1.png">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+
+      </div>
+      <div class="right-section">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img id="triggerImage" class="current-user-picture" src="general-images-folder/osas Goody.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <a class="home-navigation-link" href="index.html">
+        <div class="sidebar-link">
+          <img src="icons/home.svg">
+          <div>Home</div>
+        </div>
+      </a>
+      <div class="sidebar-link">
+        <img src="icons/heart.svg">
+        <div>Favourite</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Recent live</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <a href="my-videos.html"><div>GamePlay</div></a>
+      </div>
+      <a class="link-collection-nav" href="collection.html">
+        <div class="sidebar-link">
+          <img src="icons/library.svg">
+          <div>Collection</div>
+        </div>
+      </a>
+      <div class="sidebar-link">
+        <img src="icons/info-circle.svg">
+        <div>Help Center</div>
+      </div>
+    </nav>
+
+    <div id="infoBox" class="dialog-profile-box hidden">
+      <div class="image-profile-container">
+        <img class="profile-image" src="general-images-folder/osas Goody.jpg" alt="">
+      </div>
+      <h2 class="dialog-profile-text">About Me</h2>
+      <p class="paragraph-about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At optio, totam porro sint fuga odit voluptates quisquam, magni repudiandae consequuntur possimus. Quia quasi vel numquam ea aliquid earum aspernatur alias!</p>
+      <div class="social-links">
+        <p class="social-links-text-discription">My Social Links</p>
+        <a class="social-media-links-handle" href="#">Instagram</a>
+        <a class="social-media-links-handle" href="#">Facebook</a>
+        <a class="social-media-links-handle" href="#">X</a>
+        <a class="social-media-links-handle" href="#">Youtube</a>
+        <a class="social-media-links-handle" href="#">Email</a>
+        <a class="social-media-links-handle" href="#">Whatsapp</a>
+      </div>
+    </div>
+
+    <main>     
+
+        <div class="web-development-space">
+            <h2 class="head-text-job-category">My web/application development Experience</h2>
+            <div class="web-space-image-text">
+                <img class="web-space-image" src="general-images-folder/computer image.JPG" alt="">
+                <p class="text-job-category">As a seasoned web developer professional with a passion for 
+                  innovative technology, I bring a unique blend of creativity, technical expertise, and 
+                  project management skills to the table. With a proven track record of delivering high 
+                  applications, I possesses a comprehensive understanding f the entire web development 
+                  lifecycle, from conceptualization to deployment. My expertise spans a range of 
+                  programming languages, including HTML (Hypertext Markup Language), CSS (Cascading Style 
+                  Sheet), JavaScript, and server-side languages. With a kin skill, and a commitment to 
+                  staying up-to-date with the latest industry trends, I am confident in my ability to drive 
+                  projects forward, lead cross-functional teams, and deliver exceptional results that exceeds
+                   client expectations.</p>    
+            </div>
+        </div>
+
+        <div class="box-container-space-display">
+            <div class="nested-box-display">
+                <div class="flex-display-space">
+                    <h1 class="number-space">03</h1>
+                    <p class="paragraph-space-text">years plus of Coding</p>
+                </div>
+            </div>
+            <div class="nested-box-display">
+              <div class="flex-display-space">
+                  <h1 class="number-space">1M</h1>
+                  <p class="paragraph-space-text">lines of coding web programing language</p>
+              </div>
+          </div>
+          <div class="nested-box-display">
+            <div class="flex-display-space">
+                <h1 class="number-space">25+</h1>
+                <p class="paragraph-space-text">Web/application Project still counting</p>
+            </div>
+        </div>
+        <div class="nested-box-display">
+          <div class="flex-display-space">
+              <h1 class="number-space">9+</h1>
+              <p class="paragraph-space-text"> Active live website</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bold-text-flex">
+        <div class="bold-text-container">
+          <h1 class="my-self-discription-text">Innovative <br> Artistic <br> <span class="bold-visionary-text">Visionary</span></h1>
+        </div>
+        <div class="text-btn-space-text">
+          <p class="text-about-me-text">With a keen eye for aesthetics and a passion for innovative, I push 
+            the boundaries of what’s possible in the digital realm. My artistic vision is fueled by a deep 
+            understanding of user behaviour, emerging trends, and cutting-edge technologies. By blending 
+            artistry with technical precision, I create web experiences that are not only visually stunning
+             but also intuitive, engaging, and memorable.</p>
+          <button class="more-about-btn">More About Me</button>
+        </div>
+      </div>
+
+      <div class="border-cross-line-design">
+        <div class="line-center"></div>
+      </div>
+
+      <div class="text-jobs">
+        <p class="text-expertise-text">As a visionary web developer and artist, I merge creativity with 
+          technical expertise to craft immersive digital experiences that captivate and inspire.</p>
+        <button class="more-about-btn">View my work templates</button>
+      </div>
+
+      <div class="short-border-line-container">
+        <div class="short-line"></div>
+      </div>
+
+      <div class="web-specialist-container text-container">
+        <div class="text-space-specialist">
+          <h1 class="head-space-text">proven professional with comprehensive knowledge and expertiese in web development, design and project management</h1>
+            <div id="text-wrapper">
+              <p id="text" class="paragraph-text-space">With a proven track record of successfully managing complex web 
+                projects from conception to launch, I posses a deep understanding of the technical, creative, 
+                and business aspects of web development. My expertise spans project planning, scope definition, 
+                timeline management, budgeting, and team leadership. I am well-versed in Agile methodologies, 
+                version control systems. With a keen eye for detail, excellent communication skills, and a 
+                collaborative approach, I ensure that projects are delivered on time, within budget, and to the 
+                highest standard of quality, meeting and exceeding client expectations.</p>
+            </div>
+
+            <div id="toggle" class="icon-text-display toggle-button"><i class="bi bi-chevron-down"></i></div>
+        </div>
+        <img class="image-space-specialist" src="general-images-folder/IMG_2511.JPG" alt="">
+      </div>
+
+      
+
+      <div class="graphic-design-specialist-container">
+        <div class="text-content-graphic-container">
+          <div class="short-border-line-container">
+            <div class="short-line short-line-margin-0"></div>
+          </div>
+          <h1 class="head-space-text">Accomplished graphic design specialist with a strong portfolio, 
+            proven ability to deliver high-quality designs, and excellent client satisfaction</h1>
+          <p class="paragraph-text-space border-line">“With a keen creative eye and technical expertise, I 
+            craft visually stunning graphic designs that captivate audiences and elevate brands. From 
+            conceptualization to delivery, I pour passion and precision into every project, ensuring 
+            high-quality designs that exceed expectations and leave a lasting impression.”</p>
+          <div class="design-project-display">
+            <div class="container-nested-graphic-project">
+              <div class="flex-display-space">
+                <h1 class="number-space">02<span class="plus-span-text">+</span></h1>
+                <p class="paragraph-space-text">years of <br>Experience</p>
+              </div>
+            </div>
+            <div class="container-nested-graphic-project">
+              <div class="flex-display-space">
+                <h1 class="number-space">250<span class="plus-span-text">+</span></h1>
+                <p class="paragraph-space-text">Graphic Designs and <br>Template creation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="graphic-image" src="general-images-folder/IMAGE 4.png" alt="">
+      </div>
+
+ 
+      <div class="gaming-blog-and-youtube">
+        <div class="blog-text-container">
+          <h1 class="head-text-my-blog head-space-text">My Youtube content and  gaming blog</h1>
+          <div class="content-creating">
+            <small class="category-content-small">youtube & content creating</small>
+            <div class="text-icon-blog">
+              <h2 class="head-space-text content-h2-text-blog">Subcribe to my youtube channel for exciting & creative content</h2>
+              <i class="bi bi-arrow-right arrow-icon-blog"></i>
+            </div>
+          </div>
+          <div class="content-creating">
+            <small class="category-content-small">Gaming blog and products</small>
+            <div class="text-icon-blog">
+              <h2 class="head-space-text content-h2-text-blog">Join my gaming community to enjoy my exciting gamng insight and GamePlay</h2>
+              <i class="bi bi-arrow-right arrow-icon-blog"></i>
+            </div>
+          </div>
+        </div>
+        <div class="subcribe-newletter-blog">
+          <h2 class="head-space-text text-subcribe-blog">subcribe to my gaming community newsletter</h2>
+          <p class="paragraph-text-space">Join the ultimate gaming experience! Subscribe to my community 
+            and unlock a world of exclusive content. Stay up to date on the latest gaming news, and level 
+            up your gaming experience with me. Subscribe and become part of the most epic gaming community
+             out there!</p>
+          <input class="blog-subcription-input" type="email" placeholder="Enter your Email"> <br>
+          <button id="showButton" class="gaming-community-btn">Subcribe Now <i class="bi bi-arrow-right "></i></button>
+        </div>
+      </div>
+
+      <div id="slidingDiv" class="sign-up-newsletter-message hidden">
+        <h1 class="head-space-text text-welcome-message-sign-up">Welcome to Osas Goody <br> Blog Quarters</h1>
+        <p class="paragraph-text-space text-blog-sign-up">you have sucessfully subcribe to my blog channel be ready to see explore <br> You will receive an email shortly for comfirmation</p>
+        <div class="sign-up-messages-btn">
+          <button class="btn-sign-up-display"><a class="link-sign-up-back" href="job.categories.html">Back to Osas</a></button>
+          <button class="btn-sign-up-display btn-sign-up-transparent">Read about our newsletter</button>
+        </div>
+      </div>
+        
+
+
+      
+    </main>
+
+    <script src="script folder/general-script.js"></script>
+    <script src="script folder/job-categories.js"></script>
+  </body>
+</html>
