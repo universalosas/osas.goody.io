@@ -4,14 +4,17 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube.com Clone</title>
+    <title>OsaroGoody.home.io</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <link rel="stylesheet" href="styles/general.css">
@@ -23,7 +26,7 @@
   <body>
     <header class="header">
       <div class="left-section">
-        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img id="js-my-drop-down-footer" class="hamburger-menu" src="icons/hamburger-menu.svg">
         <img class="youtube-logo" src="icons/Untitled-1.png">
       </div>
       <div class="middle-section">
@@ -76,24 +79,174 @@
       </div>
     </nav>
 
-    <div id="infoBox" class="dialog-profile-box hidden">
+
+
+    <!-- box profile display represting a pop up container displaying about osas goody across all HTML 
+     page -->
+     <div id="infoBox" class="dialog-profile-box hidden">
       <div class="image-profile-container">
         <img class="profile-image" src="general-images-folder/osas Goody.jpg" alt="">
       </div>
       <h2 class="dialog-profile-text">About Me</h2>
-      <p class="paragraph-about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At optio, totam porro sint fuga odit voluptates quisquam, magni repudiandae consequuntur possimus. Quia quasi vel numquam ea aliquid earum aspernatur alias!</p>
+      <p class="paragraph-about-text">I’m Igbinovia Osaro Goodness, a computer science Expert, 
+        Web/application Programmer, Graphic Designer, Suite Editor, Gamer and Content Creator, I’m driven 
+        by desire to create impactful solution’s that make difference in my specialization.</p>
       <div class="social-links">
         <p class="social-links-text-discription">My Social Links</p>
-        <a class="social-media-links-handle" href="#">Instagram</a>
-        <a class="social-media-links-handle" href="#">Facebook</a>
+        <a class="social-media-links-handle" 
+        href="https://www.instagram.com/osaro_goody?igsh=NTc4MTIwNjQ2YQ==">Instagram</a>
+        <a class="social-media-links-handle" href="https://www.facebook.com/osarogoody1">Facebook</a>
         <a class="social-media-links-handle" href="#">X</a>
-        <a class="social-media-links-handle" href="#">Youtube</a>
+        <a class="social-media-links-handle" 
+        href="https://youtube.com/@universalosasgoody?si=BaxDOVqynchMLhz-">Youtube</a>
         <a class="social-media-links-handle" href="#">Email</a>
         <a class="social-media-links-handle" href="#">Whatsapp</a>
       </div>
     </div>
+    <!--  End  -->
 
-    <main>     
+
+
+    <!-- Classified container representing a drop down information for the website footer acrooss 
+     all HTML page in this website -->
+    <div id="js-slide-container" class="osaro-goodness-explore-container" 
+    style="background-image: url(general-images-folder/IMAGE\ Q.jfif);">
+      <img class="image-explore-osarogoodness" src="general-images-folder/IMAGE Q.jfif" alt="">
+      <div class="flex-container-explore-content-nested">
+        <div class="container-top-navigation-links">
+          <div class="navigation-button-a">
+            <a class="nav-link-footer first-footer-nav" href="#">My Works</a>
+            <a class="nav-link-footer" href="#">About Me</a>
+            <a class="nav-link-footer" href="#">Resume</a>
+            <div id="js-close-btn" class="close-footer-icon-btn"> <i class="bi bi-x-lg"></i> </div>
+          </div>
+        </div>
+
+        <div class="container-nested-osaro-goodness">
+          <div class="social-content-osas-flex">
+            <div class="social-accounts-flex-column">
+              <a href="https://www.facebook.com/osarogoody1"><i class="bi bi-facebook social-icon-nav"></i></a>
+              <a href="https://www.instagram.com/osaro_goody?igsh=NTc4MTIwNjQ2YQ=="><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-threads"></i></a>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="https://youtube.com/@universalosasgoody?si=BaxDOVqynchMLhz-"><i class="bi bi-youtube"></i></a>
+              <a href="#"><i class="bi bi-google"></i></a>
+            </div>
+            <div class="content-osaro-goodness-explore">
+              <hr class="line-content">
+              <small class="text-unto-osas-goody">you are unto osaro Goodness</small>
+              <p class="feild-discription-osas">Hello, I'm Osaro Goodness (Osas Goody) A professiona web/application developer, Graphic Designer
+              Microsoft Suite Editor, Video Gaming Artist, and Youtube Content Creator
+              </p>
+            </div>
+          </div>
+          <div class="content-text-explore">
+            <div class="about-me-footer-elements-flex">
+              <div class="content-nested-explore-text margin-query-1">
+                <h3 class="text-explanation-explore">About Me</h3>
+                <p class="text-explanation-parag">I’m Igbinovia Osaro Goodness, a computer science Expert, 
+                  Web/application Programmer, Graphic Designer, Suite Editor, Gamer and Content Creator, 
+                  I’m driven by desire to create impactful solution’s that make difference in my 
+                  specialization.</p>
+                <i class="bi bi-arrow-right arrow-icon-explore"></i>
+              </div>
+              <div class="content-nested-explore-text">
+                <h3 class="text-explanation-explore">My Work EXpertise</h3>
+                <p class="text-explanation-parag">“As a multifaceted creative professional, I bring a 
+                  unique blend of Web development and Graphic design expertise to the table. With years of 
+                  experience in building responsive, user friendly websites using HTML, CSS, JavaScript, 
+                  and various frameworks, I posses a deep understanding of what makes a digital experience 
+                  truly exceptional."</p>
+                <i class="bi bi-arrow-right arrow-icon-explore"></i>
+              </div>
+            </div>
+
+            <button class="btn-explore-osaro">View Resume</button>
+
+          </div>
+        </div>
+        
+        <div class="footer-element-container">
+          <div class="container-newsletter">
+            <h2 class="sign-up-head-text-footer">sign up for my newsletter</h2>
+            <small class="text-convince-signup">To get the best of my exclusive computer insigt on gaming, animation and computer Science Subcribe now!</small>
+            <div class="input-bar-footer">
+              <input class="input-footer-news-letter" type="search" placeholder="Search"><br class="break-query">   
+              <button class="footer-subcribe-btn">Subcribe Now</button>
+            </div>          
+          </div>
+          <hr>
+          <div class="display-nav-footer-links">
+            <p class="paragraph-links-footer-navs"><a class="contributor-page-navs" href="#">
+              Universal Tech Studio</a> with <a class="contributor-page-navs" href="#">Osaro Goodness</a></p>
+            <div class="page-footer-nav-links">
+              <a class="link-page-nav-foot" href="#">About</a>
+              <a class="link-page-nav-foot" href="#">Contribute & support my work</a>
+              <a class="link-page-nav-foot" href="#">Game Store</a>
+              <a class="link-page-nav-foot" href="#">Collection</a>
+            </div>
+          </div>
+          <hr>
+          <div class="text-about-my-page">
+            <p class="text-footer-end-discription">This website portfolio was created by Igbinovia Osaro 
+              Goodness Omoefuowan by full name, (other name Osaro Goody). This Webpage currently feature 
+              Criteria for Job Request, Personal Display, Gaming and Product management. Created to assist 
+              in space of receiving Web/App, Graphic, Office Suite Jobs from Client and Showcase Abilities 
+              and Expertise in Space of Management.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End -->
+
+
+    <main class="hidden-overflow">   
+
+      <!--
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slide">
+            <img class="image-slide-osas-goody" src="general-images-folder/IMG_2586.PNG" alt="">
+            <div class="content-absolute-slide-in">
+              <h2 class="slide-text-my-name">Unt<span class="span-o-animate">o</span> <span class="span-o-animate">o</span>sas <br> G<span class="span-o-animate">o</span><span class="span-o-animate">o</span>dy</h2>
+              <div class="content-osas-goody-slide">
+                <p class="littlex-text-osas-goody">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, dolore. Sit, adipisci expedita consequatur cumque pariatur dolor enim, fuga, delectus quod iusto atque facilis deleniti unde dolore porro. Quam, veritatis?</p>
+                <div class="icons-social-media">
+                  <div class="align-social-icon-center"><a href="#"><i class="bi bi-facebook"></i></a></div>
+                  <a href="#"><i class="bi bi-instagram"></i></a>
+                  <a href="#"><i class="bi bi-threads"></i></a>
+                  <a href="#"><i class="bi bi-twitter-x"></i></a>
+                  <a href="#"><i class="bi bi-youtube"></i></a>
+                  <a href="#"><i class="bi bi-google"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <img class="image-slide-osas-goody" src="general-images-folder/IMG_2587.JPG" alt="">
+            <div class="slide-job-request">
+              <h2>Let me create your new brand website</h2>
+              <button class="btn-contact-slide">contact me</button>
+            </div>
+          </div>
+          <div class="slide">
+            <img class="image-slide-osas-goody" src="general-images-folder/my works showcase slider web 1.png" alt="">
+            <div class="slide-job-request">
+              
+            </div>
+          </div>
+          <div class="slide"><img class="image-slide-osas-goody" src="general-images-folder/my works showcase slider web 1.png" alt=""></div>
+    
+        </div>
+        <div class="controls">
+          <button class="btn-slider" id="prev">Previous</button>
+          <button class="btn-slider" id="next">Next</button>
+          <button class="btn-slider" id="pause">Pause</button>
+        </div>
+      </div>
+    -->
+
+
     <div class="learn-about-osas-goody-container">
       <div class="profile-container">
         <h1 class="learn-head-text">You are on to Osas Goody!</h1>
@@ -109,19 +262,19 @@
               creativity with technical expertise to craft immersive digital experiences that captivate 
               and inspire.</p>
           </div>
-          <div  class="profile-nested-container">
+          <div id="js-graphic-caty-nav"  class="profile-nested-container">
             <div class="profile-icon"><i class="bi bi-bezier2"></i></div>
             <p class="profile-space-name">Graphic Design and Microsoft suite</p>
             <p class="text-job-category-discription">With a keen creative eye and technical expertise, I 
               craft visually stunning graphic designs that captivate audiences and elevate brands. </p>
           </div>
-          <div class="profile-nested-container">
+          <div id="js-caty-nav" class="profile-nested-container">
             <div class="profile-icon"><i class="bi bi-youtube"></i></div>
             <p class="profile-space-name">Youtube Content Creating</p>
             <p class="text-job-category-discription">Click to join my YouTube channel. Your go to 
               destination for all types of exclusive tech informative content and live gaming streams.</p>
           </div>
-          <div class="profile-nested-container">
+          <div id="js-gaming-caty-nav" class="profile-nested-container">
             <div class="profile-icon"><i class="bi bi-controller"></i></div>
             <p class="profile-space-name">Gaming</p>
             <p class="text-job-category-discription">Join the ultimate gaming experience! Subscribe to my 
@@ -129,15 +282,130 @@
           </div>
         </div>
         <div class="contact">
-          <p class="paragraph-link-contact">Contact always contact me <a href="#">Here</a> and learn More about Me <a href="#">Here</a></p>
+          <p class="paragraph-link-contact">Contact always contact me <a href="job.categories.html">Here</a> and learn More about Me <a href="#">Here</a></p>
         </div>
       </div>
     </div>
 
+
+    <div class="container-work-show-case">
+      <div class="inline-heading-icon">
+        <p class="text-paragraph-work">01| Microsoft Office Suite Editing</p>
+        <div class="icon-chat-me-query">
+          <i class="bi bi-chat-text icon-chart-me"></i>
+        </div>
+      </div>
+      <div class="content-display-work-show">
+        <img class="image-work-show-case" src="general-images-folder/suite show case.png" width="440px" alt="">
+        <div class="text-container-show">
+          <h2 class="work-title-head-text">MicroSoft Suite</h2>
+          <p class="paragraph-show-case-work">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, quae accusamus, ducimus molestias odio dolores minima repellendus atque qui blanditiis voluptatibus nisi ipsa! Possimus dolorum rem recusandae perspiciatis adipisci! Quidem.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-work-show-case">
+      <div class="inline-heading-icon">
+        <p class="text-paragraph-work">02| Mobile, Tablet Responsive Web/Application Designs</p>
+        <div class="icon-chat-me-query">
+          <i class="bi bi-chat-text icon-chart-me"></i>
+        </div>
+      </div>
+      <div class="content-display-work-show">
+        <img class="image-work-show-case" src="general-images-folder/responsive mobile app design.png" 
+        height="400px" style="margin-left: 40px; margin-right: 40px;" alt="">
+        <div class="text-container-show">
+          <h2 class="work-title-head-text">Responsive Screen Web/Application Designs</h2>
+          <p class="paragraph-show-case-work">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, quae accusamus, ducimus molestias odio dolores minima repellendus atque qui blanditiis voluptatibus nisi ipsa! Possimus dolorum rem recusandae perspiciatis adipisci! Quidem.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-work-show-case">
+      <div class="inline-heading-icon">
+        <p class="text-paragraph-work">Recent Job Template| 01</p>
+        <div class="icon-chat-me-query">
+          <i class="bi bi-chat-text icon-chart-me"></i>
+        </div>
+      </div>
+      <div class="content-display-work-show">
+        <img class="tablet-game-dsgn-img image-work-show-case" src="general-images-folder/tablet game design.png" width="440px"
+        style="margin-right: 35px;" alt="">
+        <div class="text-container-show">
+          <h2 class="work-title-head-text">Game Card Designs for Tablet</h2>
+          <p class="paragraph-show-case-work">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, quae accusamus, ducimus molestias odio dolores minima repellendus atque qui blanditiis voluptatibus nisi ipsa! Possimus dolorum rem recusandae perspiciatis adipisci! Quidem.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-work-show-case">
+      <div class="inline-heading-icon">
+        <p class="text-paragraph-work">03| Video Gaming Space Category</p>
+        <div class="icon-chat-me-query">
+          <i class="bi bi-chat-text icon-chart-me"></i>
+        </div>
+      </div>
+      <div class="content-display-work-show">
+        <img class="controler-query-style image-work-show-case" src="general-images-folder/controller pad.png" 
+        height="320px" style="margin-bottom: 70px; margin-right: 45px; @media (max-width: 1000px) {
+          height: 290px;
+        }"   alt="">
+        <div class="text-container-show">
+          <h2 class="work-title-head-text">Watch My Exciting GamePlays</h2>
+          <p class="paragraph-show-case-work">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, quae accusamus, ducimus molestias odio dolores minima repellendus atque qui blanditiis voluptatibus nisi ipsa! Possimus dolorum rem recusandae perspiciatis adipisci! Quidem.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-work-show-case">
+      <div class="inline-heading-icon">
+        <p class="text-paragraph-work">Recent Job Template| 02</p>
+        <div class="icon-chat-me-query">
+          <i class="bi bi-chat-text icon-chart-me"></i>
+        </div>
+      </div>
+      <div class="content-display-work-show">
+        <img class="web-template-img-1 image-work-show-case" src="general-images-folder/my recent-web-work showcase.png" 
+        width="440px" style="margin-right: 30px; margin-bottom: 22px;" alt="">
+        <div class="text-container-show">
+          <h2 class="work-title-head-text">Recent Web Templates</h2>
+          <p class="paragraph-show-case-work">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, quae accusamus, ducimus molestias odio dolores minima repellendus atque qui blanditiis voluptatibus nisi ipsa! Possimus dolorum rem recusandae perspiciatis adipisci! Quidem.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-work-show-case">
+      <div class="inline-heading-icon">
+        <p class="text-paragraph-work">Recent Job Template| 03</p>
+        <div class="icon-chat-me-query">
+          <i class="bi bi-chat-text icon-chart-me"></i>
+        </div>
+      </div>
+      <div class="content-display-work-show">
+        <img class="image-work-show-case" src="general-images-folder/graphic abulm phone design.png" 
+        width="270px" style="margin-left: 40px; margin-right: 40px;" alt="">
+        <div class="text-container-show">
+          <h2 class="work-title-head-text">View & Explore My Graphic Abulm</h2>
+          <p class="paragraph-show-case-work">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, quae accusamus, ducimus molestias odio dolores minima repellendus atque qui blanditiis voluptatibus nisi ipsa! Possimus dolorum rem recusandae perspiciatis adipisci! Quidem.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+  
       <!-- Slider container -->
-      <div class="slider">
+      <div class="object-cyber-punk">
         <!-- Slider images -->
-        <div class="slide active bigger">
+        <div class="object-live-game opacity-1 lscale00">
           <img src="general-images-folder/fortnite (3).jfif" alt="Image 1">
           <div class="absolute-slide-container slide-1-absolute">
             <div class="content-slide">
@@ -151,7 +419,6 @@
             </div>
           </div>
         </div> 
-        
         </div>
 
 
@@ -309,7 +576,7 @@
                 <p class="social-account-name">Instagram</p>
                 <div class="information-type">
                   <small class="media-information">31 Post</small>
-                  <button class="media-action-btn">Follow</button>
+                  <button id="instagram-btn" class="media-action-btn">Follow</button>
                 </div>
               </div>
             </div>
@@ -321,7 +588,7 @@
                 <p class="social-account-name">Youtube</p>
                 <div class="information-type">
                   <small class="media-information">26 Videos</small>
-                  <button class="media-action-btn">Subcribe</button>
+                  <button id="youtube-btn" class="media-action-btn">Subcribe</button>
                 </div>
               </div>
             </div>
@@ -333,7 +600,7 @@
                 <p class="social-account-name">Facebook</p>
                 <div class="information-type">
                   <small class="media-information">23 Post</small>
-                  <button class="media-action-btn">Follow</button>
+                  <button id="facebook-btn" class="media-action-btn">Follow</button>
                 </div>
               </div>
             </div>
@@ -496,5 +763,6 @@
     </main>
 
     <script src="script folder/general-script.js"></script>
+    <script src="script folder/home-index-script.js"></script>
   </body>
 </html>

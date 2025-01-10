@@ -58,9 +58,20 @@ document.getElementById('triggerImage').addEventListener('click', function() {
 
 
 
-// eventlistener to navigage to job-categories html file
-document.getElementById('js-job-category-nav').addEventListener('click', function() {
-  // Navigate to the target HTML page
-  window.location.href = 'job.categories.html'; 
+// Get elements for dropdown footer bar 
+const dropdownFooter = document.getElementById('js-my-drop-down-footer');
+const slideContainer = document.getElementById('js-slide-container');
+const closeButton = document.getElementById('js-close-btn');
+
+// Show the container on image click
+dropdownFooter.addEventListener('click', () => {
+  slideContainer.style.top = '0';
 });
+
+// Hide the container on button click
+closeButton.addEventListener('click', () => {
+  slideContainer.style.top = '-100%';
+});
+
+
 

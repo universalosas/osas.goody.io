@@ -412,6 +412,8 @@
     transition: max-height 0.5s ease-in;
   }
 
+
+
 /* styles for queries web development and application experience */
 @media (max-width: 1000px) {
     .web-space-image-text{
