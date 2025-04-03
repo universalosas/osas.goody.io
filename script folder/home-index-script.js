@@ -1,3 +1,37 @@
+import { pageActivitiesDisplay } from "./home-index-object-array.js";
+
+let activitiesHomePageHTML = '';
+
+pageActivitiesDisplay.forEach((pageActivities) => {
+  activitiesHomePageHTML = activitiesHomePageHTML +
+  `
+    <div class="container-work-show-case">
+      <div class="inline-heading-icon">
+        <p class="text-paragraph-work">${pageActivities.pActivityTypeText}</p>
+        <div class="icon-chat-me-query">
+          <i class="bi bi-chat-text icon-chart-me"></i>
+        </div>
+      </div>
+      <div class="content-display-work-show">
+        <img class="image-work-show-case" src="${pageActivities.imageActivitiesDisplay}" 
+        ${pageActivities.ifHeight}="${pageActivities.imageHeight}"  
+        ${pageActivities.ifWidth}="${pageActivities.imageWidth}" 
+        style="margin-left: ${pageActivities.styleMarginLeft}; 
+        margin-right: ${pageActivities.styleMarginRight};
+        margin-bottom: ${pageActivities.styleMarginBottom};
+        margin-top: ${pageActivities.styleMarginTop};" alt="${pageActivities.altAttribute}">
+        <div class="text-container-show">
+          <h2 class="work-title-head-text">${pageActivities.textActivityTitle}</h2>
+          <p class="paragraph-show-case-work">${pageActivities.paragraphTextDiscription}</p>
+        </div>
+      </div>
+    </div>
+  `;
+});
+
+document.getElementById('js-page-actities-display').innerHTML=activitiesHomePageHTML;
+
+
 
 
 // eventlistener to navigage to job-categories html file
@@ -111,3 +145,9 @@ document.getElementById('js-caty-nav').addEventListener('click', function() {
   document.getElementById('facebook-btn').addEventListener('click', function() {
     window.location.href = 'https://www.facebook.com/osarogoody1'; 
   });
+
+
+
+
+
+  

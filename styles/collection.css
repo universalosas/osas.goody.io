@@ -247,6 +247,7 @@
 .grid-onsale-game-collection{
     grid-gap: 15px;
     grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 70px;
 }
 
 /* Query styles for content in gameing collection first container */

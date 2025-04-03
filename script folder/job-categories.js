@@ -49,6 +49,7 @@ document.getElementById('showButton').addEventListener('click', function() {
   toggleButton.addEventListener('click', toggleText);
 
 
-
-
-    
+  window.addEventListener('load', () => {
+    const div = document.querySelector('.animate-in-page-load');
+    div.style.animationPlayState = 'running';
+  });
