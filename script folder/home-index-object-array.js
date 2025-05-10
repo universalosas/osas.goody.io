@@ -1,7 +1,7 @@
 export const pageActivitiesDisplay = [
     {
         pActivityTypeText: '01| Microsoft Office Suite Editing',
-        imageActivitiesDisplay: 'general-images-folder/suite show case.png',
+        imageActivitiesDisplay: 'new image folder/suite show case.png',
         ifHeight: '',
         ifWidth: 'width',
         imageWidth: '400px',
@@ -76,7 +76,7 @@ export const pageActivitiesDisplay = [
     },
     {
         pActivityTypeText: 'Recent Job Template| 03',
-        imageActivitiesDisplay: 'general-images-folder/graphic abulm phone design.png',
+        imageActivitiesDisplay: 'new image folder/graphic abulm phone design.png',
         ifHeight: '',
         ifWidth: 'width',
         imageWidth: '270px',
@@ -91,7 +91,7 @@ export const pageActivitiesDisplay = [
     },
     {
         pActivityTypeText: '04| Pack of Exciting Video Game in Store',
-        imageActivitiesDisplay: 'general-images-folder/game-conent-sales.png',
+        imageActivitiesDisplay: 'new image folder/game-conent-sales.png',
         ifHeight: 'height',
         ifWidth: '',
         imageWidth: '',
