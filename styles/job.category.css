@@ -581,6 +581,43 @@
     border: rgba(141, 140, 140, 0.432) solid 0.5px;
 }
 
+/* query stlyes for category */
+@media (max-width: 1200px) {
+    .container-box-content-category{
+        margin: 50px 0px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container-box-content-category{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .box-content-cagegories:nth-child(4),
+    .box-content-cagegories:nth-child(5){
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 780px) {
+    .container-box-content-category{
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 80px;
+    }
+
+    .can-do-paragraph{
+        font-size: 33px;
+    }
+
+    .can-do-heading-text{
+        font-size: 40px;
+    }
+
+    .box-content-cagegories{
+        height: auto !important;
+    }
+}
+
 
 
 /* styles for queries web development and application experience */
